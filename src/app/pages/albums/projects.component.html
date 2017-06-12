@@ -1,0 +1,35 @@
+<!--  SECONDARY WRAP  -->
+<div class="photopixel_fl_secondary_wrap ">
+
+    <div class="second_type_of_project">
+        <div class="container">
+            <div class="breadcrumbs">
+                <p><a href="index.html">Home</a> / <span>Projects</span></p>
+            </div>
+
+            <div class="project_title">
+                <h3>Projects</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECT LIST -->
+    <div class="container">
+        <div class="aaaabbbb">
+            <ul class="project_list">
+                      <app-album-card *ngFor="let a_card of album_cards" [a_card]="a_card" ></app-album-card>
+            </ul>
+
+
+            <div class="next">
+                <a href="#">Next Projects<i class="xcon-angle-right"></i></a>
+            </div>
+
+        </div>
+    </div>
+    <!-- /PROJECT LIST -->
+
+</div>
+<!--  /SECONDARY WRAP  -->
+
+

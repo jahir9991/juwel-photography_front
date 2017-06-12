@@ -1,0 +1,42 @@
+
+.photopixel_fl_vertical_menu {
+  background: #333333;
+}
+
+.left_bar {
+  .nav {
+    a {
+      span{
+
+      }
+      font-size: 4em;
+      font-height:4em;
+      position: relative;
+      color: #000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #000;
+    }
+    a:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      bottom: 0;
+      left: 0;
+      background-color: #6FBF71;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+  }
+}
